@@ -1,0 +1,107 @@
+body{
+  background-color: lightblue;
+}
+  h1{
+    background-color:paleturquoise;
+    font-family: 'Kaushan Script', cursive;;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+a{
+  border-left: blue solid 2px;
+  border-right: blue solid 1px;
+  border-radius: 6px; box-shadow: inset 2px 2px 5px darkblue;
+  background-color:pink;
+  height: 22px;
+  width: 100px;
+  padding: 12px;
+}
+a:hover{
+  background-color: salmon;
+  border-style: none
+}
+
+#voorstelling{
+  background-image: url(profile.png);
+  background-size: 20%;
+  background-repeat: repeat-y;
+
+  display: block;
+  font-size: 25px;
+  margin-top: 150px;
+  margin-left: 400px;
+  width: 600px;
+  max-height: 550px;
+  background-color: salmon;
+  color: white;
+  border-radius: 15px;
+  padding-left: 180px;
+  border: dashed pink thick;
+}
+
+#Copyright{
+  font-size: 12px;
+  display: block;
+  margin-top: 230px;
+  margin-left: 605px;
+  width: 165px;
+  padding: 10px;
+  border: ridge pink;
+  ;}
+  #Copyright2{
+    font-size: 12px;
+    display: block;
+    margin-top: 100px;
+    margin-left: 600px;
+    width: 165px;
+    padding: 10px;
+    border: ridge pink;
+  }
+  #Copyright3{
+    font-size: 12px;
+    display: block;
+    margin-top: 320px;
+    margin-left: 600px;
+    width: 165px;
+    padding: 10px;
+    border: ridge pink;
+  }
+  footer{
+    background-color: paleturquoise;
+  height: 70px;}
+
+  fieldset{
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 300px;
+    padding: 10px;
+  }
+
+input[type="text"], input[type="email"], textarea, select,button{
+  display: block;
+  background-color: pink;
+  margin: 15px 0px;
+  width: 300px;
+  height: 20px;
+  border-radius: 6px; box-shadow: inset 2px 2px 5px salmon;
+}
+
+textarea{
+  padding: 5px 4px;
+  height: 100px;
+}
+button:active{
+  background-color: salmon;
+  color: white;
+  border-radius: 4px; box-shadow: inset 2px 2px 5px salmon;
+}
+table{
+  margin-left: 320px;
+  margin-top: 150px;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+th{
+  background-color: Salmon;}
+td{
+  background-color: pink;}
